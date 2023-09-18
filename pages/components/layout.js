@@ -7,7 +7,7 @@ const Layout = ({ children }) => {
     <div className="page-container" >
     <div className="backgroundimage">
       <Image 
-        src="/Guitarbackground2.webp"
+        src="/guitarbackground1.webp"
         alt="Guitar background by Shinnosuke Kawabe https://unsplash.com/photos/idya-9U4ZJM"
         fill
         style={{objectFit:"cover"}}
