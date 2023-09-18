@@ -27,10 +27,7 @@ h1 {
 }
 
 .page-container {
-  z-index: -2;
   position: relative;
-  padding-left: 10px;
-  margin-left: -10px;
   height: 100vh;
   overflow: hidden;
 
@@ -179,7 +176,6 @@ svg {
 
   
   .page-container {
-
     overflow-y: scroll;
   }
 
@@ -203,7 +199,7 @@ svg {
     top: 60px;
     display: block;
     flex-direction: column;
-    background: lightgrey;
+    background: firebrick;
     align-items: left;
     left: 0;
     width: 66%;
@@ -303,15 +299,6 @@ svg {
     }
 
 
-
-    .backgroundimage {
-      background-size: cover;
-      width: 100%;
-      display: block;
-      position: fixed;
-      overflow: visible;
-    }
-
 }
 
 @media (max-width: 550px) {
@@ -339,7 +326,7 @@ svg {
     top: 60px;
     display: block;
     flex-direction: column;
-    background: lightgrey;
+    background: firebrick;
     align-items: left;
     left: 0;
     width: 100%;
