@@ -1,9 +1,9 @@
 import '../styles/globals.css'
 import Layout from './components/layout'
-import { Rye } from '@next/font/google'
+import { Bungee_Inline } from '@next/font/google'
 
 
-const righteous = Rye({ subsets: ['latin'], weight: ['400'], display: 'swap'})
+const righteous = Bungee_Inline({ subsets: ['latin'], weight: ['400'], display: 'swap'})
 
 function MyApp({ Component, pageProps }) {
   return (

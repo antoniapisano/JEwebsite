@@ -47,7 +47,7 @@
     position: relative;
     display: flex;
     margin: 0%;
-    color: deepskyblue;
+    color: dodgerblue;
     font-weight: lighter;
     margin: 2vw;
   width: 40%;
@@ -63,7 +63,7 @@
       position: relative;
       display: flex;
       margin: 0%;
-      color: deepskyblue;
+      color: dodgerblue;
       font-weight: lighter;
       margin: 2vw;
     width: 40%;
@@ -120,10 +120,10 @@
 
 
 .thistitle {
-  font-size: 200px;
+  font-size: 8em;
   position: relative;
   display: flex;
-  color: deepskyblue;
+  color: dodgerblue;
   font-weight: lighter;
   display: block;
   margin-left: auto;
@@ -143,7 +143,7 @@
     font-size: 6em;
     position: relative;
     display: flex;
-    color: deepskyblue;
+    color: dodgerblue;
     font-weight: lighter;
     display: block;
     margin-left: auto;
@@ -162,7 +162,7 @@
     font-size: 4em;
     position: relative;
     display: flex;
-    color: deepskyblue;
+    color: dodgerblue;
     font-weight: lighter;
     display: block;
     margin-left: auto;

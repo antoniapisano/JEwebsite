@@ -8,7 +8,7 @@ body {
   margin: 0;
   padding: 0;
   align-items: center;
-  background-color: deepskyblue;
+  background-color: dodgerblue;
 }
 
 h1 {
@@ -61,14 +61,14 @@ h1 {
 }
 
 .Navbar li a {
-  color: deepskyblue;
+  color: dodgerblue;
   font-style: normal;
   text-decoration: none;
   transition: color 500ms;
 }
 
 .Navbar li > a:hover {
-  color: firebrick;
+  color: darkgoldenrod;
 }
 
 
@@ -78,7 +78,7 @@ h1 {
   justify-content: space-between;
   position: absolute;
   float: none;
-  color: firebrick;
+  color: darkgoldenrod;
   text-decoration: none;
   margin: 15px;
   position: relative;
@@ -98,7 +98,7 @@ h1 {
   bottom: 0;
   width: 0;
   height: 2px;
-  background: firebrick;
+  background: darkgoldenrod;
   transition: all 0.45s;
 }
 
@@ -173,11 +173,11 @@ svg {
 @media (max-width: 819px) {
 
 
-
+.page-container {
+  overflow: auto;
+}
   
-  .page-container {
-    overflow-y: scroll;
-  }
+ 
 
   .Navbar {
     display: block;
@@ -185,7 +185,7 @@ svg {
   }
 
   .Navbar li {
-    font-size: 4.5em;
+    font-size: 3em;
     list-style-type: none;
     display: block;
     flex-direction: column;
@@ -199,7 +199,7 @@ svg {
     top: 60px;
     display: block;
     flex-direction: column;
-    background: firebrick;
+    background: darkgoldenrod;
     align-items: left;
     left: 0;
     width: 66%;
@@ -231,7 +231,7 @@ svg {
     position: relative;
     width: 32px;
     height: 2px;
-    background: deepskyblue;
+    background: dodgerblue;
     transition: all 0.45s ease-in-out;
   }
 
@@ -240,7 +240,7 @@ svg {
     content: "";
     position: absolute;
     height: 2px;
-    background:deepskyblue;
+    background:dodgerblue;
     border-radius: 2px;
     transition: all 0.45s ease-in-out;
   }
@@ -280,7 +280,7 @@ svg {
     bottom: 0;
     width: 100%;
     height: 2.5rem;  
-    background-color: deepskyblue;
+    background-color: dodgerblue;
     color: lightgrey; 
     font-size: 2vh;    
     margin: auto 0;
@@ -326,7 +326,7 @@ svg {
     top: 60px;
     display: block;
     flex-direction: column;
-    background: firebrick;
+    background: darkgoldenrod;
     align-items: left;
     left: 0;
     width: 100%;
