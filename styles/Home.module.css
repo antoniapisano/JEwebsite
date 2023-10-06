@@ -15,7 +15,16 @@
 }
 
 .thistitle {
-  display: none;
+    font-size: 200px;
+    position: relative;
+    display: flex;
+    margin: 0%;
+    color: dodgerblue;
+    font-weight: lighter;
+    margin: 2vw;
+  width: 40%;
+  padding: 0%;
+  text-align: center;
 }
 
 
@@ -36,9 +45,13 @@
   
   .videoresponsive {
       display: flex;
-      width: 100%;
-      height: 100%;
-      padding: 0%;
+      margin: 0%;
+      color: dodgerblue;
+      font-weight: lighter;
+      margin: 2vw;
+    width: 40%;
+    padding: 0%;
+    text-align: center;
   }
   
 
@@ -100,11 +113,10 @@
 
 
 .thistitle {
-  font-size: 13em;
-  text-align: center;
+  font-size: 8em;
   position: relative;
   display: flex;
-  color: black;
+  color: dodgerblue;
   font-weight: lighter;
   display: block;
   margin-left: auto;
@@ -121,10 +133,10 @@
 @media (max-width: 550px) {
 
   .thistitle {
-    font-size: 10em;
+    font-size: 6em;
     position: relative;
     display: flex;
-    color: black;
+    color: dodgerblue;
     font-weight: lighter;
     display: block;
     margin-left: auto;
@@ -140,10 +152,10 @@
 @media (max-width: 300px) {
 
   .thistitle {
-    font-size: 6em;
+    font-size: 4em;
     position: relative;
     display: flex;
-    color: black;
+    color: dodgerblue;
     font-weight: lighter;
     display: block;
     margin-left: auto;
