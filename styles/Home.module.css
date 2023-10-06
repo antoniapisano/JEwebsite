@@ -1,15 +1,43 @@
-.youtubecontainer {
-  position: relative;
-  padding-bottom: 56.25%;
-  padding-top: 30px;
-  height: 0;
-  overflow: hidden;
+.gridcontainer {
+  display: grid;
+  padding: 0%;
+  margin: 0%;
+  width: 100%;
+  height: 100%;
+  gap: 2%;
+  grid-template-areas:
+    "a b";
+    grid-template-columns: 1fr 1fr;
 }
- 
+
+.headcontainer {
+  display: flex;
+  position: relative;
+  padding: 0%;
+  margin: 0%;
+  width: 100%;
+  height: 100%;
+  grid-area: a;
+}
+
+.youtubecontainer {
+  display: flex;
+  padding-bottom: 10%;
+  width: 100%;
+  height: 100%;
+  grid-area: b;
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
 .videoresponsive {
-  position: absolute;
-  top: 0;
-  left: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding: 0%;
+}
+
+.ytp-cued-thumbnail-overlay-image {
   width: 100%;
   height: 100%;
 }
@@ -27,23 +55,12 @@
   text-align: center;
 }
 
-
-
-
 @media (max-width: 1020) {
 
-  .youtubecontainer {
-    padding-top: auto;
-    aspect-ratio: auto;
-    display: flex;
-    padding-bottom: 10%;
-    width: 100%;
-    height: 100%;
-    padding-right: 5%;
-    padding-left: 5%;
-  }
   
-  .videoresponsive {
+  .thistitle {
+      font-size: 12em;
+      position: relative;
       display: flex;
       margin: 0%;
       color: dodgerblue;
@@ -53,17 +70,10 @@
     padding: 0%;
     text-align: center;
   }
-  
-
 }
 
 
-
-@media (max-width: 913px) {
-
-  .brtitle {
-    display: none;
-  }
+@media (max-width: 920px) {
 
   .gridcontainer {
     display: grid;
@@ -81,12 +91,10 @@
   .headcontainer {
     grid-area: a;
     align-items: center;
-    padding-bottom: -20%;
   }
 
   .youtubecontainer {
-  display: flex;
-  padding-top: -20%;
+    display: flex;
   padding-bottom: 10%;
   width: 100%;
   height: 100%;
@@ -101,7 +109,6 @@
   width: 100%;
   height: 100%;
   padding: 0%;
-  padding-top: -20%;
   
 }
 
